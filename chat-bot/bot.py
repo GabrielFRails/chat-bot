@@ -22,7 +22,7 @@ def horario(update, context):
 
 def main():
 
-    token = '871218576:AAF0hwsF1rSPCkdazKOerXeIZp02gKVP4-8'
+    token = 'TOKEM AQUI'
     updater = Updater(token = token, use_context= True)
 
     updater.dispatcher.add_handler(CommandHandler('start', welcome))
